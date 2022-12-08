@@ -1,0 +1,12 @@
+// const chalk = require("chalk");
+const Mousa = "Mousa";
+const NewName = "Sultan of Ottomans";
+const Empire = "Sultan of Ottomans";
+console.log(module);
+module.exports = { Mousa, Empire };
+// const name = "Mousa Khalid on CLI ";
+// console.log(chalk.rainbow.name);
+const lodash = require("lodash");
+const name = [1, [2, [3, [4, [5]]]]];
+const newName = lodash.flattenDeep(name);
+console.log(newName);
